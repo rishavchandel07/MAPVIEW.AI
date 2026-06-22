@@ -1,0 +1,70 @@
+{
+    "name": "BharatWay - Smart Travel, Smart Bharat",
+    "short_name": "BharatWay",
+    "description": "India's First AI-Powered Travel & Health Companion - Live Fuel Prices, Navigation, Translation in 22 Languages, SOS Emergency",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0A0E27",
+    "theme_color": "#FF6B00",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "categories": ["travel", "navigation", "health", "utilities"],
+    "lang": "en",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Home Screen - Smart Travel Dashboard"
+        },
+        {
+            "src": "screenshot2.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Navigation & Live Fuel Prices"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Emergency SOS",
+            "short_name": "SOS",
+            "description": "One-tap emergency alert with location sharing",
+            "url": "/?sos",
+            "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Fuel Prices",
+            "short_name": "Fuel",
+            "description": "Live fuel prices across 35 Indian states",
+            "url": "/?fuel",
+            "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Navigation",
+            "short_name": "Map",
+            "description": "AI-powered navigation with traffic updates",
+            "url": "/?map",
+            "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "related_applications": [],
+    "iarc_rating_id": ""
+}
